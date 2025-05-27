@@ -9,7 +9,7 @@ public class JSONSerializer implements EventSerializer {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
-    public String serialize(Map<String, Evenement> evenements) throws Exception {
+    public String serialize(Map<String, Evenement> evenements, String filePath) throws Exception {
         return objectMapper.writeValueAsString(evenements);
     }
 

@@ -32,4 +32,7 @@ public abstract class Evenement {
 
     public String getId() { return id;
     }
+
+    public String getNom() { return nom;
+    }
 }

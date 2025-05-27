@@ -12,8 +12,11 @@ module com.example.gestionevenements {
     requires com.almasb.fxgl.all;
     requires com.fasterxml.jackson.databind;
     requires java.xml.bind;
+    //requires org.junit.jupiter.api;
+    //requires org.opentest4j;
 
-    opens com.example.gestionevenements to javafx.fxml;
+    opens com.example.gestionevenements to javafx.fxml, org.junit.platform.commons;
+
     exports com.example.gestionevenements;
     exports com.example.gestionevenements.controller;
     opens com.example.gestionevenements.controller to javafx.fxml;

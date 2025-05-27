@@ -2,6 +2,7 @@ package com.example.gestionevenements.persistence;
 
 import com.example.gestionevenements.model.Evenement;
 
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
@@ -9,14 +10,14 @@ import java.io.File;
 import java.util.Map;
 
 public class XMLSerializer implements EventSerializer {
+
     @Override
-    public void serialize(Map<String, Evenement> evenements, String filePath) throws Exception {
+    public String serialize(Map<String, Evenement> evenements, String filePath) throws Exception {
         JAXBContext context = JAXBContext.newInstance(EventWrapper.class);
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        marshaller.marshal(new
-
-                EventWrapper(evenements), new File(filePath));
+        marshaller.marshal(new EventWrapper(evenements), new File(filePath));
+        return "";
     }
 
     @Override

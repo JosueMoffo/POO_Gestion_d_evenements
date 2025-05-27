@@ -8,25 +8,19 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class AddEventController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println(" HELLO CONTROLEUR: ");
+        System.out.println(" AddEvent CONTROLEUR: ");
     }
-
     public MainApp mainApp;
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
     }
 
     @FXML
-    public void onEvenements() throws IOException {
-        mainApp.showEventPage();
-    }
-
-    @FXML
-    public void onOrganisateurs() throws IOException {
+    private void onAnnuler() throws IOException {
         mainApp.showOrganisPage();
     }
 }
