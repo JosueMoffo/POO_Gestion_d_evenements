@@ -1,4 +1,4 @@
-Ce projet est réalisé dans le cadre du cours **Programmation Orientée Objet II (POO2)** à l'École Nationale Supérieure Polytechnique de Yaoundé.
+1Ce projet est réalisé dans le cadre du cours **Programmation Orientée Objet II (POO2)** à l'École Nationale Supérieure Polytechnique de Yaoundé.
 
 ##  Réalisé par
 Mbah Moffo Josue  
@@ -46,8 +46,7 @@ git clone https://github.com/JosueMoffo/POO_Gestion_d_evenements.git
 
 2.Ouvrir dans IntelliJ IDEA (ou tout autre IDE Java)
 
-3.Exécuter 
-<mvn clean install> puis <mbn clean compile> et enfin <mvn javafx:run> ou <MainApp.java> via l'interface de l'IDE
+3.Exécuter <mvn clean install> puis <mbn clean compile> et enfin <mvn javafx:run> ou <MainApp.java> via l'interface de l'IDE
 
 L’application JavaFX se lancera avec une interface intuitive.
 
