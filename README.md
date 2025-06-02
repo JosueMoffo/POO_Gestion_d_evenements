@@ -1,4 +1,4 @@
-11Ce projet est réalisé dans le cadre du cours **Programmation Orientée Objet II (POO2)** à l'École Nationale Supérieure Polytechnique de Yaoundé.
+Ce projet est réalisé dans le cadre du cours **Programmation Orientée Objet II (POO2)** à l'École Nationale Supérieure Polytechnique de Yaoundé.
 
 ##  Réalisé par
 Mbah Moffo Josue  
